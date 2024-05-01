@@ -1,14 +1,16 @@
 <template>
-  <RouterView />
+    <Title></Title>
+    <RouterView />
 </template>
 
 
 <script setup>
 import { RouterView } from 'vue-router'
+import Title from '/src/components/UpTitle.vue'
 </script>
 
 
 
-<style scoped>
+<style lang="css" scoped>
 
 </style>
