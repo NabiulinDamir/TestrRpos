@@ -1,7 +1,5 @@
 <template>
-    <div>
-
-    </div>
+    <h1>привет хуй</h1>
 </template>
 
 <script setup>

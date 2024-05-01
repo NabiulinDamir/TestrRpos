@@ -1,16 +1,18 @@
 <template>
-    <Title></Title>
-    <RouterView />
+    <router-view/>
 </template>
 
-
 <script setup>
-import { RouterView } from 'vue-router'
-import Title from '/src/components/UpTitle.vue'
+
 </script>
 
+<style lang="scss">
+@import "./styles/global.scss";
 
-
-<style lang="css" scoped>
+    #app{
+        font-family: Avenir, Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
 
 </style>
