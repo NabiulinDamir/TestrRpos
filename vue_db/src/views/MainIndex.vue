@@ -1,5 +1,5 @@
 <template>
-    <h1>привет хуй</h1>
+    <h1>привет мир</h1>
 </template>
 
 <script setup>
